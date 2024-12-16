@@ -1,11 +1,9 @@
-/* Сброс стилей */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Общие стили */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -14,7 +12,6 @@ body {
     margin: 0;
 }
 
-/* Стили хедера */
 header {
     background-color: #4CAF50;
     color: white;
@@ -22,13 +19,11 @@ header {
     padding: 1em 0;
 }
 
-/* Основная часть */
 main {
     flex: 1;
     padding: 20px;
 }
 
-/* Стили формы */
 form {
     max-width: 400px;
     margin: 0 auto;
@@ -81,7 +76,6 @@ button i {
     margin-right: 5px;
 }
 
-/* Футер */
 footer {
     text-align: center;
     background-color: #333;
