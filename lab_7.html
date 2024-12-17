@@ -6,10 +6,15 @@
 <body>
     <header>
         <h1>Регистрация нового пользователя</h1>
+        <!-- Ссылка для возврата на главную -->
+        <div style="text-align: center; margin-top: 10px;">
+            <a href="laba_5.html" class="back-link">Вернуться на главную</a>
+        </div>
     </header>
     <main>
         <form>
-            <fieldset>
+            <!-- Личная информация -->
+            <div class="form-group">
                 <legend>Личная информация</legend>
                 <label for="name">Имя</label>
                 <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
@@ -24,8 +29,10 @@
                     <option value="female">Женский</option>
                     <option value="other">Другой</option>
                 </select>
-            </fieldset>
-            <fieldset>
+            </div>
+            
+            <!-- Контактные данные -->
+            <div class="form-group">
                 <legend>Контактные данные</legend>
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="example@example.com" required>
@@ -43,10 +50,10 @@
 
                 <label for="password">Пароль</label>
                 <input type="password" id="password" name="password" placeholder="Введите пароль" required>
-            </fieldset>
+            </div>
 
             <button type="submit">
-                <i></i> Зарегистрироваться
+                Зарегистрироваться
             </button>
         </form>
     </main>
@@ -55,3 +62,4 @@
     </footer>
 </body>
 </html>
+

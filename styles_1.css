@@ -33,13 +33,6 @@ form {
     background-color: #f9f9f9;
 }
 
-fieldset {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-}
-
 legend {
     font-weight: bold;
     padding: 0 10px;
@@ -72,8 +65,18 @@ button:hover {
     background-color: #45a049;
 }
 
-button i {
-    margin-right: 5px;
+/* Ссылка возврата на главную страницу */
+.back-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF; /* Синий цвет */
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.back-link:hover {
+    color: #0056b3; /* Яркий синий при наведении */
+    text-decoration: none; /* Убирает подчеркивание при наведении */
 }
 
 footer {
