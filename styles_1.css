@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #e5b180;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -55,14 +55,14 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4CAF50;
+    background-color: #e5b180;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #e5b180;
 }
 
 /* Ссылка возврата на главную страницу */
