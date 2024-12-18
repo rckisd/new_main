@@ -65,18 +65,17 @@ button:hover {
     background-color: #e5b180;
 }
 
-/* Ссылка возврата на главную страницу */
 .back-link {
     display: inline-block;
     margin-top: 10px;
-    color: #007BFF; /* Синий цвет */
+    color: #007BFF;
     text-decoration: underline;
     font-size: 1rem;
 }
 
 .back-link:hover {
-    color: #0056b3; /* Яркий синий при наведении */
-    text-decoration: none; /* Убирает подчеркивание при наведении */
+    color: #0056b3;
+    text-decoration: none;
 }
 
 footer {
